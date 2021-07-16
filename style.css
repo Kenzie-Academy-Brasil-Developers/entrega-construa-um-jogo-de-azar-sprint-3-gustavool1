@@ -1,0 +1,74 @@
+body{
+    background-color: rgb(86, 78, 100);
+    font-family: sans-serif;
+}
+.container-jokenpo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 70vw;
+    margin: 0 auto;
+    
+    
+}
+.container-jokenpo h1{
+    text-align: center;
+    color: white;
+}
+form{
+    width: 100%;
+}
+input{
+    display: inline-block;
+}
+
+input[type='checkbox']{
+    width: 100%;
+    display: none;
+}
+input[type='submit']{
+    cursor: pointer;
+    margin-top: 20%;
+    border-radius: 3px ;
+    font-size: 30px;
+    color: white;
+    width: 100%;
+    background-color: rgb(86, 78, 100);
+    border: 1px solid rgb(102, 100, 107);
+}
+input[type='submit']:hover{
+    
+    border: 1px solid white;
+}
+
+i{
+    cursor: pointer;
+   font-size: 100px;
+   width: 100%;
+   margin-top: 20px;
+   text-align: center;
+   display: block;
+   text-align: center;
+   color: white;
+   
+}
+i:hover{
+    color: rgb(134, 132, 132);
+}
+.container-jokenpo .jokenpo-result{
+    color: white;
+}
+
+@media screen and (min-width:750px) {
+    .container-jokenpo{
+        width: 70vw;
+        text-align: center;
+    }
+    i{
+        width: 30%;
+    }
+    .container-jokenpo .jokenpo-result{
+        color: white;
+        font-size: 30px;
+    }
+}
